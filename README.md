@@ -8,7 +8,7 @@ After 20+ years across Google/YouTube, Microsoft and Samsung, I’m bringing tog
 
 ## What we’re building
 
-### Open Creator Graph
+### Open Creator Graph (OCG)
 A free, public identity and consent layer for Creators. It brings their social identities into one structured record, helps Search and AI understand who they are, and lets them declare how AI may use their identity.
 
 ### Creator Genome
@@ -17,7 +17,7 @@ Multimodal AI that turns a Creator’s content into deep context about their sty
 ### AI business team
 We’re building agents to help Creators with the work around their content: partnerships, planning, contracts, invoices and payments. Our earlier invoicing product was used by more than 2,500 Creators.
 
-## My work on the Open Creator Graph
+## My work on the Open Creator Graph (OCG)
 
 AI needs to know two things about a Creator: **which information it can trust, and what it has permission to do.** I’ve focused my work on the Open Creator Graph on both.
 
