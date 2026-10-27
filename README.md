@@ -17,13 +17,24 @@ Multimodal AI that turns a Creator’s content into deep context about their sty
 ### AI business team
 We’re building agents to help Creators with the work around their content: partnerships, planning, contracts, invoices and payments. Our earlier invoicing product was used by more than 2,500 Creators.
 
-## My product focus
+## My work on OCG: trust, consent and AI evaluation
 
-- Turning Creator problems into simple product experiences.
-- Designing how identity, consent and personalised AI work together.
-- Working with our engineering team to test, learn and ship.
+### Data trust and provenance
+I drove the product work on how OCG distinguishes platform-verified facts, publicly sourced information and owner-stated details. The precedence is **Verified > Sourced > Stated**, making the origin and confidence of information explicit when sources disagree.
 
-I’m interested in multimodal AI, agents with useful context, and making complex technology feel simple to use.
+### AI consent research and product design
+I researched AI consent standards, including the **Human Consent Standard (HCS)** and **Really Simple Licensing (RSL)**, to shape OCG’s consent model. The work connects choices people can understand with structured declarations machines can read, distinguishing identity rights from permissions over a page or file.
+
+A central design question: how do we distinguish depicting someone as they are from synthesising something they never said or did? That distinction informs how we express allowed, conditional and prohibited uses.
+
+[Read the technical reference: data trust and consent](https://creatorgraph.sparkonomy.com/for-ai-and-search/)
+
+### AMISS: AI Misrepresentation Study
+I worked on the research behind AMISS, examining how accurately AI systems describe Creators. The study tested **10,000 Instagram and YouTube profiles**, with **50,000 queries across five AI models**, checking responses against recorded social-platform data.
+
+The research examines factual accuracy, conflicting answers, follower-count errors and the effect of web search. The published methodology sets out the sample, accuracy criteria and limits of the findings.
+
+[Explore AMISS](https://creatorgraph.sparkonomy.com/amiss/) · [Findings and methodology](https://creatorgraph.sparkonomy.com/amiss/study-summary.html)
 
 ## Before Sparkonomy
 
