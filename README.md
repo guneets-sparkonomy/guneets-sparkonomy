@@ -19,14 +19,22 @@ We’re building agents to help Creators with the work around their content: par
 
 ## My work on the Open Creator Graph (OCG)
 
-**Creator identity should be discoverable through information AI can trust, with exact permissions for what AI can and cannot do with that identity.** My work on the Open Creator Graph brings those two needs together: trusted identity and explicit consent.
+I identified a missing piece of infrastructure for the Creator profession: **an open identity layer built for people whose careers begin and grow on the internet.** Creators had built a new profession, but their identities were still scattered across platform accounts, handles and content.
 
-### Give AI a reason to trust each fact
-A Creator’s identity is scattered across platforms, with conflicting details and no clear way for AI to judge which source to trust. Bringing those details together is only the first step. Every data point also needs a confidence level and a source.
+Wikipedia, Wikidata and Google’s Knowledge Graph are important parts of how the web identifies people. But they serve different purposes. Wikipedia’s [notability requirements](https://en.wikipedia.org/wiki/Wikipedia:Notability) depend on independent coverage, and [Wikidata has its own inclusion criteria](https://www.wikidata.org/wiki/Wikidata:Notability). Neither is a universal professional identity registry. A Creator can have an established audience and business without a coherent identity across these systems.
 
-I designed OCG’s data trust model to make that confidence explicit at the level of each fact. **Verified, Sourced and Stated** distinguish platform-confirmed information from public-source evidence and a Creator’s own statements. The aim is to give AI engines the context to resolve conflicting information and describe a Creator accurately, rather than treat every claim as equally reliable.
+My conclusion was that relying on existing knowledge infrastructure would leave a gap in how this digital-first profession is represented and discovered through search results and AI answers. Creators needed infrastructure designed to grow across the whole profession, with ownership verification, trusted information and explicit AI permissions built in. **That is why we built the Open Creator Graph.**
 
-[How OCG represents identity, sources and confidence](https://creatorgraph.sparkonomy.com/for-ai-and-search/)
+**Creator identity should be discoverable through information AI can trust, with exact permissions for what AI can and cannot do with that identity.** My work on OCG brings those needs together.
+
+### Make identity open, readable and trustworthy
+OCG’s public records are free to read, with no login, paywall or API key required for search engines and AI crawlers to access them. I designed around a simple principle: identity information needs to be accessible and understandable to the systems that represent Creators.
+
+We use established web structures, including **schema.org Person or Organization within ProfilePage, expressed as JSON-LD**, alongside sitemaps, crawl instructions and AI-readable reference files. The aim is to make each Creator’s identity easy for machines to find and interpret across platforms.
+
+Access and structure are only part of the problem. Every data point also needs a confidence level and a source. I designed OCG’s data trust model to make that confidence explicit at the level of each fact. **Verified, Sourced and Stated** distinguish platform-confirmed information from public-source evidence and a Creator’s own statements. This gives AI engines the context to resolve conflicting information and describe a Creator accurately.
+
+[How OCG represents identity, sources, confidence and machine access](https://creatorgraph.sparkonomy.com/for-ai-and-search/)
 
 ### Make identity rights usable
 A right only helps if you can exercise it. The [EU AI Act requires general-purpose model providers to identify and respect copyright reservations](https://digital-strategy.ec.europa.eu/en/faqs/guidelines-obligations-general-purpose-ai-providers). Separately, lawmakers are strengthening protections over voice and likeness: the proposed [NO FAKES Act advanced unanimously out of the US Senate Judiciary Committee in June 2026](https://www.blackburn.senate.gov/2026/6/blackburn-coons-bipartisan-bill-to-protect-individuals-and-creators-from-deepfakes-passes-senate-judiciary-committee).
