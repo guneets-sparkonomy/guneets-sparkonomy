@@ -32,3 +32,6 @@ At Google/YouTube, I led growth in APAC and founded Google Ignition Labs. Earlie
 ## Connect
 
 [Try Sparkonomy](https://www.sparkonomy.com) · [LinkedIn](https://www.linkedin.com/in/guneets/) · [Sparkonomy on GitHub](https://github.com/sparkonomy)
+
+
+**[Main Sparkonomy repository (private)](https://github.com/sparkonomy/sparkonomy)** · Access restricted to authorised collaborators.
